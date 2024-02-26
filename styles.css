@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    background-color: white;
+    /* Fundo branco */
+}
+
+#menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuItem {
+    margin-bottom: 5px;
+    font-family: 'Ascender Sans WGL Bold', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid #a44fc0;
+    width: 350px;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: #a44fc0;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.menuItem:hover a {
+    color: #99d4df;
+}
+
+#imagemSuperior {
+    width: 100%;
+    height: auto;
+    max-height: 325px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.bola {
+    width: 54px;
+    height: 54px;
+    background-color: green;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tempoResposta {
+    margin: 30px;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+    user-select: none;
+}
+
+#betaText {
+    font-family: 'Ascender Sans WGL Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    user-select: none;
+}
